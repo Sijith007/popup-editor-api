@@ -8,5 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class Popup extends Model
 {
     use HasFactory;
-    protected $fillable = ['name', 'bgColor', 'title', 'infoText', 'fieldName', 'buttonText', 'items'];
+    protected $fillable = ['name', 'bgColor', 'title', 'infoText', 'fieldName', 'buttonText', 'containerWidth', 'containerHeight', 'items'];
 }

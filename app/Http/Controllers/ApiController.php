@@ -15,6 +15,8 @@ class ApiController extends Controller
         $popup->infoText = $request->infoText;
         $popup->fieldName = $request->fieldName;
         $popup->buttonText = $request->buttonText;
+        $popup->containerWidth = $request->containerWidth;
+        $popup->containerHeight = $request->containerHeight;
         $popup->items = $request->items;
         $popup->save();
 
@@ -52,6 +54,8 @@ class ApiController extends Controller
             $popup->infoText = $request->infoText;
             $popup->fieldName = $request->fieldName;
             $popup->buttonText = $request->buttonText;
+            $popup->containerWidth = $request->containerWidth;
+            $popup->containerHeight = $request->containerHeight;
             $popup->items = $request->items;
 
             $popup->save();

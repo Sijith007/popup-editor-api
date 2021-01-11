@@ -21,7 +21,9 @@ class CreatePopupsTable extends Migration
             $table->string('infoText');
             $table->string('fieldName');
             $table->string('buttonText');
-            $table->string('items');
+            $table->string('containerWidth');
+            $table->string('containerHeight');
+            $table->longText('items');
             $table->timestamps();
         });
     }
